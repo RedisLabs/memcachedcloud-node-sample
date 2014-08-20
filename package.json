@@ -1,0 +1,29 @@
+{
+  "name": "memcachedcloud-node-sample",
+  "version": "0.0.0",
+  "description": "Memcached Cloud Node.js Sample",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedisLabs/memcachedcloud-node-sample"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "memcached"
+  ],
+  "author": "Redis Labs",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/RedisLabs/memcachedcloud-node-sample/issues"
+  },
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "memjs": "^0.8.5",
+    "logfmt": "^1.1.2",
+    "express": "^4.8.5"
+  }
+}
