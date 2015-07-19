@@ -4,5 +4,5 @@
   "repository": "https://github.com/RedisLabs/memcachedcloud-node-sample",
   "logo": "https://s3.amazonaws.com/assets.heroku.com/addons.heroku.com/icons/1321/original.png",
   "keywords": ["node", "express", "memcached", "memcached cloud" ],
-  "addons": [ "memcachedcloud:25" ]
+  "addons": [ "memcachedcloud:30" ]
 }
