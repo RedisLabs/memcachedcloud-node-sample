@@ -19,7 +19,7 @@ app.get('/', function(req, res) {
 app.get('/command', function(req, res) {
   switch (req.query.a) {
     case "set":
-      client.set("welcome_msg", "Hello from Redis!", function(err, success) {
+      client.set("welcome_msg", "Hello from Memcached!", function(err, success) {
         res.send(success);
       });
       break;
